@@ -1,0 +1,67 @@
+device
+        register
+            name: "reg 1"
+            address: 0x0001
+            value: 0-255
+            bitfields: {
+                bitfield
+                    name: "bit 0"
+                    pos: 0
+                    width: 1
+                bitfield
+                    name: "bits 1-2"
+                    pos: 1
+                    width: 2
+                bitfield
+                    name: "bits 3-7"
+                    pos: 3
+                    width: 5
+                }
+        register
+            name: "reg 2"
+            address: 0x0002
+            value: 0-255
+            bitfields: {
+                bitfield
+                    name: "slider"
+                    pos: 0
+                    width: 8
+                }
+        register
+            name: "reg 3"
+            address: 0x0003
+            value: 0-255
+            bitfields: {
+                bitfield
+                    name: "bit 0"
+                    pos: 0
+                    width: 1
+                bitfield
+                    name: "bits 1"
+                    pos: 1
+                    width: 1
+                bitfield
+                    name: "bits 2"
+                    pos: 2
+                    width: 1
+                bitfield
+                    name: "bit 3"
+                    pos: 3
+                    width: 1
+                bitfield
+                    name: "bits 4"
+                    pos: 4
+                    width: 1
+                bitfield
+                    name: "bit 5"
+                    pos: 5
+                    width: 1
+                bitfield
+                    name: "bits 6"
+                    pos: 6
+                    width: 1
+                bitfield
+                    name: "bit 7"
+                    pos: 7
+                    width: 1
+                }

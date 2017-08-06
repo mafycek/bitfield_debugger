@@ -1,0 +1,32 @@
+Introduction 
+------------
+Bitfield_debugger is demostration application written in Python using PySide and dbus. It shows how easily can be application with Hardware abstration layer (HAL) that contains memory positions that are visualized/read/write. It contain Czech translation module and it immendiately allows German translation.
+
+To start the application we submit to console "python3 bitfield_debugger.py". We can also provide additional command-line arguments indicating profile of memory device, type of HAL and language.
+
+Example
+-------
+
+"python3 bitfield_debugger.py definition.txt dbus czech "
+will start czech localization of the application with dbus HAL memory and device memory profile in file definition.txt is loaded.
+
+Structure
+---------
+Application communicates with demonstrator of memory HAL and 2 implementations are provided. Local memory demonstrator and DBUS operated client/server module. The server must be started before the application is run. The command for the server is "python3 HAL/dbus_server.py".
+
+Following figure shows communication of GUI and HAL:
+
+  -------
+ |  GUI  |      <- main directory
+  -------
+     |
+     | I/O operations
+     |
+  --------
+ | Device |     <- HAL subdirectory
+  --------
+
+  Test
+  ----
+  The application is accompained with unittest and each compunent can be tested separatly.
+  

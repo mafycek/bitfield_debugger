@@ -1,0 +1,3073 @@
+device
+register
+name: reg0
+address:0000
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg1
+address:0001
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg2
+address:0002
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg3
+address:0003
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg4
+address:0004
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg5
+address:0005
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg6
+address:0006
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg7
+address:0007
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg8
+address:0008
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg9
+address:0009
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg10
+address:0010
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg11
+address:0011
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg12
+address:0012
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg13
+address:0013
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg14
+address:0014
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:4
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg15
+address:0015
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:5
+}
+register
+name: reg16
+address:0016
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg17
+address:0017
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg18
+address:0018
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg19
+address:0019
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg20
+address:0020
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg21
+address:0021
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg22
+address:0022
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg23
+address:0023
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg24
+address:0024
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg25
+address:0025
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg26
+address:0026
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg27
+address:0027
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg28
+address:0028
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:4
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg29
+address:0029
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:4
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg30
+address:0030
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:5
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg31
+address:0031
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:1
+bitfield
+name: bit2
+pos:2
+width:6
+}
+register
+name: reg32
+address:0032
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg33
+address:0033
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg34
+address:0034
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg35
+address:0035
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg36
+address:0036
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg37
+address:0037
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg38
+address:0038
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg39
+address:0039
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg40
+address:0040
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg41
+address:0041
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg42
+address:0042
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg43
+address:0043
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg44
+address:0044
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg45
+address:0045
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg46
+address:0046
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:4
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg47
+address:0047
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:2
+bitfield
+name: bit3
+pos:3
+width:5
+}
+register
+name: reg48
+address:0048
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg49
+address:0049
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg50
+address:0050
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg51
+address:0051
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg52
+address:0052
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg53
+address:0053
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg54
+address:0054
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg55
+address:0055
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:3
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg56
+address:0056
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:4
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg57
+address:0057
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:4
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg58
+address:0058
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:4
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg59
+address:0059
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:4
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg60
+address:0060
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:5
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg61
+address:0061
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:5
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg62
+address:0062
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:6
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg63
+address:0063
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:1
+bitfield
+name: bit1
+pos:1
+width:7
+}
+register
+name: reg64
+address:0064
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg65
+address:0065
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg66
+address:0066
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg67
+address:0067
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg68
+address:0068
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg69
+address:0069
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg70
+address:0070
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg71
+address:0071
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg72
+address:0072
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg73
+address:0073
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg74
+address:0074
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg75
+address:0075
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg76
+address:0076
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg77
+address:0077
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg78
+address:0078
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:4
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg79
+address:0079
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:1
+bitfield
+name: bit3
+pos:3
+width:5
+}
+register
+name: reg80
+address:0080
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg81
+address:0081
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg82
+address:0082
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg83
+address:0083
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg84
+address:0084
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg85
+address:0085
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg86
+address:0086
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg87
+address:0087
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:2
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg88
+address:0088
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg89
+address:0089
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg90
+address:0090
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg91
+address:0091
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:3
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg92
+address:0092
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:4
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg93
+address:0093
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:4
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg94
+address:0094
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:5
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg95
+address:0095
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:2
+bitfield
+name: bit2
+pos:2
+width:6
+}
+register
+name: reg96
+address:0096
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg97
+address:0097
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg98
+address:0098
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg99
+address:0099
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg100
+address:0100
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg101
+address:0101
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg102
+address:0102
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg103
+address:0103
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:1
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg104
+address:0104
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg105
+address:0105
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg106
+address:0106
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg107
+address:0107
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:2
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg108
+address:0108
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg109
+address:0109
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:3
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg110
+address:0110
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:4
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg111
+address:0111
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:3
+bitfield
+name: bit3
+pos:3
+width:5
+}
+register
+name: reg112
+address:0112
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg113
+address:0113
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg114
+address:0114
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg115
+address:0115
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:1
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg116
+address:0116
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg117
+address:0117
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:2
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg118
+address:0118
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:3
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg119
+address:0119
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:4
+bitfield
+name: bit4
+pos:4
+width:4
+}
+register
+name: reg120
+address:0120
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:5
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg121
+address:0121
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:5
+bitfield
+name: bit5
+pos:5
+width:1
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg122
+address:0122
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:5
+bitfield
+name: bit5
+pos:5
+width:2
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg123
+address:0123
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:5
+bitfield
+name: bit5
+pos:5
+width:3
+}
+register
+name: reg124
+address:0124
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:6
+bitfield
+name: bit6
+pos:6
+width:1
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg125
+address:0125
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:6
+bitfield
+name: bit6
+pos:6
+width:2
+}
+register
+name: reg126
+address:0126
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:7
+bitfield
+name: bit7
+pos:7
+width:1
+}
+register
+name: reg127
+address:0127
+value: 0-255
+bitfields: {
+bitfield
+name: bit0
+pos:0
+width:8
+}
